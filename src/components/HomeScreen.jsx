@@ -43,7 +43,7 @@ export default function HomeScreen({
             <div className="flex items-center gap-2.5">
               <div className="w-8 h-8 rounded-full overflow-hidden border border-white/30 shrink-0">
                 <img
-                  src="/avatar.png"
+                  src="./avatar.png"
                   alt="Александр Казанцев"
                   className="w-full h-full object-cover"
                 />
@@ -134,7 +134,7 @@ export default function HomeScreen({
             <div className="flex items-center gap-3">
               <div className="flex -space-x-2.5">
                 <img
-                  src="/avatar.png"
+                  src="./avatar.png"
                   alt="АК"
                   className="w-9 h-9 rounded-full border-2 border-[#141416] object-cover"
                 />

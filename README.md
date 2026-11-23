@@ -2,7 +2,7 @@
 
 Интерактивный продуктовый прототип новой функции для мобильного приложения VK Музыка.
 
-**Демо прототипа на Vercel:** [vk-music-ten.vercel.app](https://vk-music-ten.vercel.app/)
+**Демо прототипа (GitHub Pages):** [kazantsev-developer.github.io/vk-music](https://kazantsev-developer.github.io/vk-music/)
 
 ## Суть фичи
 

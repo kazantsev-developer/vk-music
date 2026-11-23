@@ -54,7 +54,7 @@ export default function BlendScreen({
         <div className="relative z-10 flex flex-col items-center text-center mt-3">
           <div className="flex items-center justify-center -space-x-3">
             <img
-              src="/avatar.png"
+              src="./avatar.png"
               alt="Александр"
               className="w-15 h-15 w-[60px] h-[60px] rounded-full border-[3px] border-white/30 object-cover shadow-lg"
             />
