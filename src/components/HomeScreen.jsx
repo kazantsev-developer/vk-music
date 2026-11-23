@@ -30,7 +30,7 @@ export default function HomeScreen({
 }) {
   return (
     <div className="absolute inset-0 flex flex-col bg-[#050505] overflow-hidden">
-      <div className="flex-1 flex flex-col justify-between px-3 pt-12 pb-[86px] overflow-y-auto no-scrollbar">
+      <div className="flex-1 flex flex-col justify-between px-3 pt-12 pb-[104px] overflow-y-auto no-scrollbar">
         <div
           className="relative pt-4 pb-4 px-4 rounded-[30px] flex-1 flex flex-col justify-between overflow-hidden"
           style={{
@@ -119,10 +119,10 @@ export default function HomeScreen({
             <p className="mt-1 text-[13px] text-white/85">
               Музыкальные рекомендации для вас
             </p>
-            <div className="mt-7 flex items-center justify-center gap-2.5">
+            <div className="mt-7 flex items-center justify-center gap-2">
               <button
                 onClick={() => onToast('Настройка волны: по настроению и темпу')}
-                className="h-10 inline-flex items-center justify-center gap-1.5 px-4 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-md text-white text-[13px] font-medium transition-all duration-300 whitespace-nowrap focus:outline-none"
+                className="h-10 inline-flex items-center justify-center gap-1.5 px-3.5 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-md text-white text-[13px] font-medium transition-all duration-300 whitespace-nowrap focus:outline-none"
               >
                 <SlidersHorizontal className="w-4 h-4 shrink-0" />
                 <span>Настроить</span>
@@ -130,7 +130,7 @@ export default function HomeScreen({
 
               <button
                 onClick={onOpenFriends}
-                className="group h-10 inline-flex items-center justify-center gap-1.5 px-4 rounded-full bg-white hover:bg-[#FF2E93]/40 hover:backdrop-blur-md text-black hover:text-white text-[13px] font-bold shadow-md active:scale-95 transition-all duration-300 whitespace-nowrap focus:outline-none"
+                className="group h-10 inline-flex items-center justify-center gap-1.5 px-3.5 rounded-full bg-white hover:bg-[#FF2E93]/40 hover:backdrop-blur-md text-black hover:text-white text-[13px] font-bold shadow-md active:scale-95 transition-all duration-300 whitespace-nowrap focus:outline-none"
               >
                 <Users className="w-4 h-4 shrink-0 text-[#0047FF] group-hover:text-white transition-colors duration-300" />
                 <span>Совместный микс</span>
