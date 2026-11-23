@@ -72,7 +72,7 @@ export default function App() {
 
       <div className="mb-3 text-center">
         <span className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-medium bg-white/10 text-white/85 border border-white/10">
-          <span className="w-2 h-2 rounded-full bg-[#E646B6] animate-pulse" />
+          <span className="w-2 h-2 rounded-full bg-[#EC53F6] animate-pulse" />
           Интерактивный прототип VK Музыка • Фича: Совместный микс
         </span>
       </div>

@@ -18,7 +18,6 @@ body {
   user-select: none;
 }
 
-/* Живая волна VK Микс */
 @keyframes vkWave {
   0%,
   100% {
@@ -34,7 +33,6 @@ body {
   animation: vkWave 7s ease-in-out infinite;
 }
 
-/* Эквалайзер */
 @keyframes eqBar1 {
   0%,
   100% {
@@ -72,7 +70,6 @@ body {
   animation: eqBar3 0.85s ease-in-out infinite;
 }
 
-/* Кастомный слайдер баланса */
 input[type="range"].vk-slider {
   -webkit-appearance: none;
   appearance: none;
@@ -82,7 +79,7 @@ input[type="range"].vk-slider {
 input[type="range"].vk-slider::-webkit-slider-runnable-track {
   height: 6px;
   border-radius: 999px;
-  background: linear-gradient(90deg, #2d81e0 0%, #7b3fe4 50%, #e646b6 100%);
+  background: #eb57f6;
   opacity: 0.9;
 }
 input[type="range"].vk-slider::-webkit-slider-thumb {
@@ -103,7 +100,7 @@ input[type="range"].vk-slider::-webkit-slider-thumb:hover {
 input[type="range"].vk-slider::-moz-range-track {
   height: 6px;
   border-radius: 999px;
-  background: linear-gradient(90deg, #2d81e0 0%, #7b3fe4 50%, #e646b6 100%);
+  background: #eb57f6;
 }
 input[type="range"].vk-slider::-moz-range-thumb {
   width: 20px;

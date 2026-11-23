@@ -38,7 +38,7 @@ export default function FriendsSheet({ open, friends, onSelect, onClose }) {
             <button
               key={f.id}
               onClick={() => onSelect(i)}
-              className="w-full text-left flex items-center gap-3 p-2.5 rounded-2xl bg-[#1B1B22] hover:bg-[#232330] border border-white/5 hover:border-white/15 transition"
+              className="w-full text-left flex items-center gap-3 p-2.5 rounded-2xl bg-[#141416] hover:bg-[#232330] border border-white/5 hover:border-white/15 transition"
             >
               <div className="relative shrink-0">
                 <div
@@ -47,7 +47,7 @@ export default function FriendsSheet({ open, friends, onSelect, onClose }) {
                 >
                   {f.initials}
                 </div>
-                <span className="absolute -bottom-1 -right-1 px-1.5 py-[1px] rounded-full bg-vk-bg border border-white/15 text-[9px] font-bold text-[#7CE3B0]">
+                <span className="absolute -bottom-1 -right-1 px-1.5 py-[1px] rounded-full bg-[#050505] border border-white/15 text-[9px] font-bold text-[#7CE3B0]">
                   {f.match}%
                 </span>
               </div>

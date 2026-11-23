@@ -22,7 +22,7 @@ export default function MiniPlayer({
   };
 
   return (
-    <div className="flex items-center gap-3 rounded-2xl bg-vk-card border border-white/10 p-2.5">
+    <div className="flex items-center gap-3 rounded-2xl bg-[#141416] border border-white/10 p-2.5">
       <div
         className="w-11 h-11 rounded-xl shrink-0 flex items-center justify-center"
         style={{
@@ -51,7 +51,7 @@ export default function MiniPlayer({
           className="mt-1.5 h-1.5 rounded-full bg-white/15 cursor-pointer relative overflow-hidden"
         >
           <div
-            className="h-full rounded-full bg-gradient-to-r from-vk-blue via-vk-purple to-vk-pink"
+            className="h-full rounded-full bg-[#222226]"
             style={{ width: `${Math.min(100, progress * 100)}%` }}
           />
         </div>

@@ -4,26 +4,19 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: [
-          "Inter",
-          "-apple-system",
-          "BlinkMacSystemFont",
-          "SF Pro Display",
-          "sans-serif",
-        ],
+        sans: ['-apple-system', 'BlinkMacSystemFont', 'SF Pro Display', 'Inter', 'sans-serif'],
       },
       colors: {
         vk: {
-          bg: "#0A0A0C",
-          card: "#19191D",
-          cardHover: "#232329",
-          blue: "#2D81E0",
-          purple: "#7B3FE4",
-          pink: "#E646B6",
-          muted: "rgba(255, 255, 255, 0.55)",
-        },
-      },
+          bg: '#050505',
+          card: '#141416',
+          cardHover: '#1D1D21',
+          blue: '#EC53F6',
+          link: '#F278FA',
+          muted: '#9A9AA2',
+        }
+      }
     },
   },
   plugins: [],
-};
+}
