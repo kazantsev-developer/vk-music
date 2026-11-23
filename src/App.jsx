@@ -83,6 +83,7 @@ export default function App() {
             isPlaying={isPlaying}
             onTogglePlay={toggle}
             onOpenFriends={() => setIsSheetOpen(true)}
+            activeFriend={currentFriend} onQuickBlend={() => handleSelectFriend(friendIndex)}
             onToast={showToast}
           />
         ) : (
